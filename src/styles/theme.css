@@ -1,0 +1,40 @@
+:root {
+  --egk-bg: #0a0a0a;
+  --egk-surface: #141412;
+  --egk-surface-raised: #1c1c1a;
+  --egk-border: #2c2c2a;
+  --egk-border-strong: #444441;
+
+  --egk-text-primary: #f1efe8;
+  --egk-text-secondary: #d3d1c7;
+  --egk-text-muted: #888780;
+  --egk-text-dim: #5f5e5a;
+
+  --egk-accent: #E24B4A;
+  --egk-accent-on: #1a0d0d;
+  --egk-success: #5dcaa5;
+
+  --egk-radius-sm: 6px;
+  --egk-radius-md: 8px;
+  --egk-radius-lg: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--egk-bg);
+  color: var(--egk-text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
+}
