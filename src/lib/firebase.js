@@ -3,12 +3,12 @@ import { getAuth } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: 'YOUR_API_KEY',
-  authDomain: 'YOUR_PROJECT.firebaseapp.com',
-  projectId: 'YOUR_PROJECT_ID',
-  storageBucket: 'YOUR_PROJECT.appspot.com',
-  messagingSenderId: 'YOUR_SENDER_ID',
-  appId: 'YOUR_APP_ID',
+  apiKey: 'AIzaSyCQPo0mp4Ucllurfl3WkM5bKHdaVGBCMFY',
+  authDomain: 'egk-community.firebaseapp.com',
+  projectId: 'egk-community',
+  storageBucket: 'egk-community.firebasestorage.app',
+  messagingSenderId: '1064951000337',
+  appId: '1:1064951000337:web:801c7701eea7ceb059b0b0',
 }
 
 const app = initializeApp(firebaseConfig)
