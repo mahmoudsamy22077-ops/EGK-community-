@@ -96,28 +96,3 @@ export default function EntryPage() {
           EGK
         </div>
         <div
-          style={{
-            fontSize: 10,
-            color: 'var(--egk-text-dim)',
-            letterSpacing: 3,
-            marginTop: 2,
-          }}
-        >
-          THE DARK KNIGHT
-        </div>
-      </div>
-
-      <div
-        style={{
-          width: '100%',
-          maxWidth: 360,
-          background: 'var(--egk-surface)',
-          borderRadius: 'var(--egk-radius-lg)',
-          border: '0.5px solid var(--egk-border)',
-          padding: '1.25rem 1.1rem',
-        }}
-      >
-        <div
-          style={{
-            display: 'flex',
-            borderRadius: 'var(--egk-radius-md)',
