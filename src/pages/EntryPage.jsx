@@ -64,7 +64,7 @@ export default function EntryPage() {
 
       setSuccessMsg('تم إنشاء الحساب')
     } catch (err) {
-      setRegError('حصل خطأ أثناء إنشاء الحساب — جرب إيميل تاني')
+      setRegError('خطأ: ' + err.code + ' - ' + err.message)
     }
   }
 
