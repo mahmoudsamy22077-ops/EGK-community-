@@ -98,4 +98,4 @@ export default function EntryPage() {
         <div
           style={{
             fontSize: 10,
-            color: 'var(--egk-text-d
+            color: 'var(--egk-text-dim)',
