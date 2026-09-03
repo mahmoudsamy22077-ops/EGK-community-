@@ -96,3 +96,6 @@ export default function EntryPage() {
           EGK
         </div>
         <div
+          style={{
+            fontSize: 10,
+            color: 'var(--egk-text-d
